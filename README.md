@@ -3,6 +3,10 @@
 A modern, interactive financial dashboard built with Plotly Dash for tracking your stock portfolio, mutual funds, loans, credit cards, and other investments.
 
 ## Features
+![Wallet_1](https://github.com/user-attachments/assets/1e46bb54-0f1a-489d-b46d-e91162055a46)
+![Wallet_2](https://github.com/user-attachments/assets/29259c76-3c31-4318-9ce5-a6cb56839500)
+![Wallet_3](https://github.com/user-attachments/assets/d743cece-bdbf-4c2f-a274-c6e698b0a421)
+![Wallet_4](https://github.com/user-attachments/assets/dbfe98d8-8ebb-42e2-939d-41987cd5b622)
 
 - Portfolio Overview
   - Net worth trajectory
