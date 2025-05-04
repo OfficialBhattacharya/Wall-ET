@@ -1,0 +1,115 @@
+/* Custom styles for StockPicker dashboard */
+
+:root {
+    --primary-color: #00d09c;
+    --secondary-color: #2c3e50;
+    --background-dark: #1a1a1a;
+    --text-light: #ffffff;
+    --text-muted: #6c757d;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--background-dark);
+    color: var(--text-light);
+}
+
+/* Sidebar styling */
+.sidebar {
+    background-color: var(--secondary-color);
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.nav-link {
+    color: var(--text-light);
+    padding: 0.5rem 1rem;
+    margin: 0.2rem 0;
+    border-radius: 0.25rem;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--primary-color);
+}
+
+.nav-link.active {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+}
+
+/* Card styling */
+.card {
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+/* Metric cards */
+.metric-card {
+    background: linear-gradient(45deg, var(--secondary-color), var(--background-dark));
+    border-left: 4px solid var(--primary-color);
+}
+
+/* Charts */
+.plotly-graph-div {
+    background-color: var(--secondary-color) !important;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+/* Data tables */
+.dash-table-container {
+    background-color: var(--secondary-color);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.dash-header {
+    background-color: var(--background-dark) !important;
+    color: var(--text-light) !important;
+}
+
+.dash-cell {
+    background-color: var(--secondary-color) !important;
+    color: var(--text-light) !important;
+}
+
+/* Date picker */
+.DateRangePicker {
+    background-color: var(--secondary-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: #00b386;
+    border-color: #00b386;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .sidebar {
+        min-height: auto;
+    }
+    
+    .card {
+        margin-bottom: 1rem;
+    }
+} 
